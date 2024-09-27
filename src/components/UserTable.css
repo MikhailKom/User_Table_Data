@@ -1,0 +1,33 @@
+@media (max-width: 400px) {
+    .ant-table {
+      font-size: 14px; /* Уменьшаем размер шрифта на мобильных устройствах */
+    }
+  
+    .submit-button {
+      width: 50%; /* Кнопка сохранения занимает всю ширину на мобильных устройствах */
+      margin-top: 10px;
+    }
+  
+    .ant-input {
+      width: 50%; /* Поля ввода занимают всю ширину */
+    }
+
+    .form-input {
+      input {
+        width: 100%;
+      }
+    }
+  }
+
+  .actions {
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    justify-content:end;
+    margin-top: 24px;
+    align-items: center;
+
+    button {
+      margin: 0;
+    }
+  }
